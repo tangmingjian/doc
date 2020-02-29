@@ -1,4 +1,4 @@
-##netstat lsof
+## netstat lsof
 
 1.使用netstat命令，用来显示各种网络信息，比如网络连接、端口号、协议、状态、进程ID等信息；  
 
