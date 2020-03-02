@@ -27,3 +27,11 @@
    
 * BeanDefinition继承关系
 ![BeanDefinition继承体系](./img/BeanDefinition.png)
+
+RootBeanDefinition 父BD  
+ChildBeanDefinition 子BD new ChildBeanDefinition("parent_bd_name")  
+GenericBeanDefinition 和RootBeanDefinition ChildBeanDefinition等同(setParentName("parent_bd_name"))  
+AnnotatedGenericBeanDefinition 以@Configuration标注的  
+ConfigurationClassBeanDefinition 以@Bean标注的  
+ScannedGenericBeanDefinition 以@Component标注的  
+
